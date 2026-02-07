@@ -13,7 +13,7 @@
         
         <!-- === MOVED nav.js TO THE END of body === -->
         <script src="https://thehighlandcafe.github.io/hioswebcore/assets/scripts/links.js"></script>
-        <title>HiOSMobile | Home</title>
+        <title>CryptoTrack | Home</title>
         <script>
             //Service worker supported by browser
             if('serviceWorker' in navigator) {
@@ -46,14 +46,9 @@
                             <!-- All buttons are now in a single card for correct styling -->
                             <div class="card full">
                                 <div class="card-body">
-                                    <!-- "Download Menus" is now the top button -->
-                                    <button class="ripple-button joinTop roundedImage button" onclick="toolbariconPage('https://www.dropbox.com/scl/fo/7gmlnnjcau1np91ee83ht/h?rlkey=ifj506k3aal7ko7tfecy8oqyq&dl=0')">
-                                        <span class="material-symbols-rounded">download_for_offline</span>
-                                        <span class="button-text">Download Menus</span>
-                                    </button>
                                     
                                     <!-- Settings is a middle button -->
-                                    <button class="ripple-button joinMiddle roundedImage button" onclick="link('activities/activity_settings.html')">
+                                    <button class="ripple-button joinTop roundedImage button" onclick="link('activities/activity_settings.html')">
                                         <span class="material-symbols-rounded">settings</span>
                                         <span class="button-text">Settings</span>
                                     </button>
@@ -81,22 +76,22 @@
             <nav class="mdc-bottom-navigation fixed-bottom">
                 <a class="mdc-bottom-navigation__item" data-iframe-url="pages/welcome.html">
                     <div class="activeIcon" id="homeIcon">
-                        <i class="material-symbols-rounded icon">home</i>
+                        <i class="material-symbols-rounded icon">dashboard</i>
                     </div>
                 </a>
                 <a class="mdc-bottom-navigation__item" data-iframe-url="pages/restaurant.html">
                     <div class="inactiveIcon" id="restaurantIcon">
-                        <i class="material-symbols-rounded icon">restaurant</i>
+                        <i class="material-symbols-rounded icon">finance_mode</i>
                     </div>
                 </a>
                 <a class="mdc-bottom-navigation__item" data-iframe-url="pages/hotelactivities.html">
                     <div class="inactiveIcon" id="hotelIcon">
-                        <i class="material-symbols-rounded icon">hotel</i>
+                        <i class="material-symbols-rounded icon">currency_bitcoin</i>
                     </div>
                 </a>
                 <a class="mdc-bottom-navigation__item" data-iframe-url="pages/roomkey.html">
                     <div class="inactiveIcon" id="roomkeyIcon">
-                        <i class="material-symbols-rounded icon">key</i>
+                        <i class="material-symbols-rounded icon">wallet</i>
                     </div>
                 </a>
             </nav>
