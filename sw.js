@@ -1,14 +1,14 @@
 //On install - the application shell cached
-self.addEventListener('install', function(event) {
+/*self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('sw-cache').then(function(cache) {
             //Static files that make up the application are cached
-            return cache.add('index.html');
+            r//eturn cache.add('index.html');
         })
     );
 });
 
-//with request network
+///with request network
 self.addEventListener('fetch', function(event) {
     event.respondWith(
         //Try the cache
@@ -17,4 +17,4 @@ self.addEventListener('fetch', function(event) {
             return response || fetch(event.request);
         })
     );
-});
+});*/
